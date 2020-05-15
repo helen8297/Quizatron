@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  /* display: grid;
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto; */
+  font-family: "Orbitron", sans-serif;
+}
+
+.maindiv {
+  /* margin-left: 2em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+h1 {
+  color: aqua;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 3em;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+h2 {
+  color: hotpink;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 4em;
+  grid-row: 3;
+  grid-column: 2;
+}
+p {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  grid-row: 3;
+  justify-self: center;
+}
+
+.result {
+  height: 60px;
+  margin-top: 15px;
+  margin-left: 27vw;
+  margin-right: 4vw;
+  text-align: center;
+}
+
+.question {
+  color: hotpink;
+  border: hotpink 10px double;
+  padding: 10px;
+  width: 80vw;
+  max-width: 700px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.option {
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px aqua;
+  padding: 10px;
+  width: 80vw;
+  max-width: 700px;
+  text-align: center;
+  border: black solid 2px;
+  text-align: center;
+}
+
+.option:hover {
+  background-image: linear-gradient(white, hotpink);
+  border: hotpink solid 2px;
+}
+
+#score {
+  position: absolute;
+  top: 90%;
+  right: 80%;
+}
